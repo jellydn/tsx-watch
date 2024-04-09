@@ -1,9 +1,23 @@
 {
   "name": "tsx-watch",
+  "version": "0.1.0",
+  "description": "A simple tool for run a command when a file changes for tsx",
+  "keywords": ["tsx", "watch", "typescript"],
+  "homepage": "https://github.com/jellydn/tsx-watch#readme",
+  "bugs": {
+    "url": "https://github.com/jellydn/tsx-watch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellydn/tsx-watch.git"
+  },
+  "license": "MIT",
+  "author": "Dung Huynh Duc <dung@productsway.com>",
   "type": "module",
   "module": "index.ts",
   "scripts": {
     "check": "biome check --apply .",
+    "format": "biome format --changed",
     "publish": "bunx jsr publish"
   },
   "devDependencies": {
@@ -11,6 +25,7 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
   }
 }
