@@ -11,6 +11,5 @@
  * @param cmd - The command to run
  */
 export function tsxWatch(cmd: string) {
-	// TODO: Implement tsx watch with command
-	console.log(`Re-run command on tsx watch: ${cmd}`);
+    console.log(`Re-run command on tsx watch: ${cmd}`);
 }

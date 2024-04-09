@@ -33,6 +33,13 @@ tsx-watch --ignore ./ignore-me.js --ignore ./ignore-me-too.js ./file.ts
 tsx-watch --on-change "npm run build" ./file.ts
 ```
 
+## Pre-commit
+
+This package also provides a pre-commit hook that will run the biome command before committing.
+```sh
+pre-commit install --hook-type pre-push
+```
+
 ## Author
 
 👤 **Huynh Duc Dung**

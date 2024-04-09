@@ -1,11 +1,13 @@
 {
   "name": "tsx-watch",
-  "module": "index.ts",
   "type": "module",
+  "module": "index.ts",
   "scripts": {
+    "check": "biome check --apply .",
     "publish": "bunx jsr publish"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.6.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
