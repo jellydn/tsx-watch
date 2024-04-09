@@ -6,8 +6,12 @@
 
 ### Install
 
+
 ```sh
+npx jsr add @jellydn/tsw-watch
 ```
+
+More usage at [@jellydn/tsw-watch - JSR](https://jsr.io/@jellydn/tsw-watch@0.1.0)
 
 ### Run file and automatically rerun on changes:
 
