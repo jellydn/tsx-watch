@@ -1,0 +1,14 @@
+{
+  "name": "tsx-watch",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "publish": "bunx jsr publish"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
