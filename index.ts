@@ -11,5 +11,6 @@
  * @param cmd - The command to run
  */
 export function tsxWatch(cmd: string) {
+    // TODO: Implement tsx-watch cli with --on-change option for running a command on file change
     console.log(`Re-run command on tsx watch: ${cmd}`);
 }
