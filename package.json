@@ -21,7 +21,7 @@
     "publish": "bunx jsr publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.0",
+    "@biomejs/biome": "2.5.12",
     "@types/bun": "latest"
   },
   "peerDependencies": {
